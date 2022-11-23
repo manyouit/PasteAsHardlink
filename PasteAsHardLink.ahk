@@ -5,7 +5,7 @@
 #Include Explorer_GetPath.ahk
 
 #If WinActive("ahk_exe explorer.exe")
-^H::
+~^H::
 path := Explorer_GetPath()
 ;MsgBox, %path%
 ofnames := SubStr(Clipboard, 1) ;ofname 代表原始文件名组的字符串（无引号）
