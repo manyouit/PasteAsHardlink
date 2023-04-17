@@ -37,7 +37,7 @@ It has an advantage over Ctrl-V-Paste that will make duplicate files and occupie
 - 我建议你粘贴那些 "难以修改或需要同步 "的文件，如媒体文件。
 - 不要粘贴那些 "容易修改 "的文件，如docx文本文件，除非你知道你在做什么。
 
-###使用前
+### 使用前
 - 从https://www.autohotkey.com/ 下载AutoHotKey
 - 下载我的脚本文件夹，并将该文件夹留在你想要的地方。
 - 按`Win+R`并输入`shell:startup`以打开用户的启动程序的文件夹。
@@ -45,7 +45,7 @@ It has an advantage over Ctrl-V-Paste that will make duplicate files and occupie
 - 把 "path-to-autohotkey.exe path-to-PasteAsHardLink.ahk"放到输入区并保存快捷方式。
 >注意，当路径中包含空格时，你必须用一对冒号来包裹每个路径。
 
-###使用
+### 使用
 - 点击该快捷方式来立即运行脚本。
 - 该脚本将在每次用户登录时运行。
 
