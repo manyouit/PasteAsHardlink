@@ -1,18 +1,18 @@
 ### Intro(中文版本介绍请往下翻)
 This script will make you paste files as hardlink. Hard link is mirror link of original file. To be specific, **Hardlink** is identical to the **original identifier** of original file. 
 
-It has an advantage over Ctrl-V-Paste that will make duplicate files and occupied another diskspace. This script will register Ctrl-H so that you can press this key combination to 'paste' as hard link.
+It has an advantage over Ctrl-V-Paste that will make duplicate files and occupied diskspace another time while Ctrl-H-Pate will only create an identical link. This script will register Ctrl-H so that you can press this key combination to 'paste' as hard link.
 
 ### Note
 - Scripts works on Windows only.
-- Files will be paste(ctrl-H) within **same parition**.
+- Files will be paste(ctrl-H) within **same parition** only.
 - Folders will not be paste(ctrl-H).
 - Hard link files will be modified everywhere once modified at one place.
 - I advice you paste files that are `hard to modify or need be synced` like media files. 
 - Do not paste files that are `easy to modify` like docx text files except that you know what you do. 
 
 ### Before use
-- Download and run AutoHotKey from https://www.autohotkey.com/
+- Download AutoHotKey from https://www.autohotkey.com/
 - Download my script folder and leave the folder where you want.
 - Press `Win+R` and input `shell:startup` to open user's folder of startup exes.
 - Mouse right click the folder add create a Windows lnk(Windows shortcuts not symlink)
