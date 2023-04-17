@@ -17,13 +17,13 @@ It has an advantage over Ctrl-V-Paste that will make duplicate files and occupie
 - Press `Win+R` and input `shell:startup` to open user's folder of startup exes.
 - Mouse right click the folder add create a Windows lnk(Windows shortcuts not symlink)
 - Put `path-to-autohotkey.exe pateh-to-PasteAsHardLink.ahk` to the input area and save the shortcut.
->note, when path cotains spaces in it, you neet wrap each path with a pair of colon.
+>note, when path cotains space(s) in it, every path needs to be wrapped by a pair of colon.
 
 ### Use
 - click the shortcut to run script immediately.
 - The script will be runned every time when user log in.
 
-### 支持Windows
+## 中文介绍
 ### 介绍
 这个脚本将使你把文件粘贴成硬链接。硬链接是原始文件的镜像链接。具体来说，**硬链接**与原始文件的**原始标识符**是相同的。
 
@@ -43,10 +43,9 @@ It has an advantage over Ctrl-V-Paste that will make duplicate files and occupie
 - 按`Win+R`并输入`shell:startup`以打开用户的启动程序的文件夹。
 - 鼠标右键点击该文件夹，添加一个Windows lnk(Windows快捷方式，不是符号链接)
 - 把 "path-to-autohotkey.exe path-to-PasteAsHardLink.ahk"放到输入区并保存快捷方式。
->注意，当路径中包含空格时，你必须用一对冒号来包裹每个路径。
+>注意，当路径中包含空格时，每个路径都必须用一对冒号来包裹。
 
 ### 使用
 - 点击该快捷方式来立即运行脚本。
 - 该脚本将在每次用户登录时运行。
 
-通过www.DeepL.com/Translator（免费版）翻译
