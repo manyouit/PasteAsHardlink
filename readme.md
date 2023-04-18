@@ -15,12 +15,12 @@ It has an advantage over Ctrl-V-Paste that will make duplicate files and occupie
 - Download AutoHotKey from https://www.autohotkey.com/
 - Download my script folder and leave the folder where you want.
 - Press `Win+R` and input `shell:startup` to open user's folder of startup exes.
-- Mouse right click the folder add create a Windows lnk(Windows shortcuts not symlink)
-- Put `path-to-autohotkey.exe pateh-to-PasteAsHardLink.ahk` to the input area and save the shortcut.
+- Mouse right click the folder add create a Windows lnk(Windows shortcuts, not symlink)
+- Put `path-to-autohotkey.exe path-to-PasteAsHardLink.ahk` to the input area and save the shortcut.
 >note, when path cotains space(s) in it, every path needs to be wrapped by a pair of colon.
 
 ### Use
-- click the shortcut to run script immediately.
+- click the shortcut to run the script immediately.
 - The script will be runned every time when user log in.
 
 ## 中文介绍
