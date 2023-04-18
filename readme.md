@@ -1,7 +1,7 @@
 ### Intro(中文版本介绍请往下翻)
 This script will make you paste files as hardlink. Hard link is mirror link of original file. To be specific, **Hardlink** is identical to the **original identifier** of original file. 
 
-It has an advantage over Ctrl-V-Paste that will make duplicate files and occupied diskspace another time while Ctrl-H-Pate will only create an identical link. This script will register Ctrl-H so that you can press this key combination to 'paste' as hard link.
+It has an advantage over Ctrl-V-Paste that will make duplicate files and occupy diskspace another time while Ctrl-H-Pate will only create an identical identifier(hardlink). This script will register Ctrl-H so that you can press this key combination to 'paste' file(s) as hard link.
 
 ### Note
 - Scripts works on Windows only.
@@ -27,7 +27,7 @@ It has an advantage over Ctrl-V-Paste that will make duplicate files and occupie
 ### 介绍
 这个脚本将使你把文件粘贴成硬链接。硬链接是原始文件的镜像链接。具体来说，**硬链接**与原始文件的**原始标识符**是相同的。
 
-它比Ctrl-V-Paste有优势，后者会产生重复的文件并再次占用磁盘空间，而Ctrl-H-Pate只会产生一个相同的链接。这个脚本将注册Ctrl-H，这样你就可以按这个组合键来 "粘贴 "作为硬链接。
+它比Ctrl-V-Paste有优势，后者会产生重复的文件并再次占用磁盘空间，而Ctrl-H-Pate只会产生一个等同的文件标识符（硬链接）。这个脚本将注册Ctrl-H，这样你就可以按这个组合键来将文件"粘贴 "为硬链接。
 
 ### 注意
 - 目前只支持Windows 系统。
