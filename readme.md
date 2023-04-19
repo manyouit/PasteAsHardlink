@@ -1,4 +1,4 @@
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=GRBA966Y78JKY&no_recurring=0&currency_code=USD)
+Please buy me a cup of coffee: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=GRBA966Y78JKY&no_recurring=0&currency_code=USD)
 
 ### Intro(中文版本介绍请往下翻)
 This script will make you paste files as hardlink. Hard link is mirror link of original file. To be specific, **Hardlink** is identical to the **original identifier** of original file. 
