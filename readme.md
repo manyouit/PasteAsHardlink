@@ -3,27 +3,28 @@ Please buy me a cup of coffee: [![Donate](https://img.shields.io/badge/Donate-Pa
 ### Intro(中文版本介绍请往下翻)
 This script will make you paste files as hardlink. Hard link is mirror link of original file. To be specific, **Hardlink** is identical to the **original identifier** of original file. 
 
-It has an advantage over Ctrl-V-Paste that will make duplicate files and occupy diskspace another time while Ctrl-H-Pate will only create an identical identifier(hardlink). This script will register Ctrl-H so that you can press this key combination to 'paste' file(s) as hard link.
+It has an advantage over Ctrl-V-Paste that will make duplicate files and occupy diskspace another time while Ctrl-H-Pate will only create an identical identifier(hardlink). This script will register Ctrl-H so that you can press this key combination to 'paste' file(s) as hard link(s).
 
 ### Note
-- Scripts works on Windows only.
-- Files will be paste(ctrl-H) within **same parition** only.
-- Folders will not be paste(ctrl-H).
-- Hard link files will be modified everywhere once modified at one place.
-- I advice you paste files that are `hard to modify or need be synced` like media files. 
-- Do not paste files that are `easy to modify` like docx text files except that you know what you do. 
+- The script works on Windows only.
+- Files will be paste(Ctrl-H) within the **same parition** only.
+- **Folders** will not be paste(ctrl-H).
+- Hard link files **will be modified everywhere** once modified at one place.
+- I advice you paste files that are *hard to modify or need be synced* like media files. 
+- Do not paste files that are *easy to modify* like docx text files except that you know what you do. 
 
 ### Before use
 - Download AutoHotKey from https://www.autohotkey.com/
 - Download my script folder and leave the folder where you want.
 - Press `Win+R` and input `shell:startup` to open user's folder of startup exes.
-- Mouse right click the folder add create a Windows lnk(Windows shortcuts, not symlink)
+- Mouse right click the folder add create a Windows lnk(Windows shortcuts, not symlink).
 - Put `path-to-autohotkey.exe path-to-PasteAsHardLink.ahk` to the input area and save the shortcut.
->note, when path cotains space(s) in it, every path needs to be wrapped by a pair of colon.
+
+Note, when path cotains space(s) in it, every path needs to be wrapped by a pair of colon.
 
 ### Use
 - click the shortcut to run the script immediately.
-- The script will be runned every time when user log in.
+- The script will be runned every time when the user logs in.
 
 ## 中文介绍
 ### 介绍
