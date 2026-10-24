@@ -6,7 +6,7 @@ This script will make you paste files as hardlink. Hard link is mirror link of o
 It has an advantage over Ctrl-V-Paste that will make duplicate files and occupy diskspace another time while Ctrl-H-Pate will only create an identical identifier(hardlink). This script will register Ctrl-H so that you can press this key combination to 'paste' file(s) as hard link(s).
 
 ### Note
-- The scripts work on Windows only.
+- These scripts work on Windows only.
 - Files will be paste(Ctrl-H) within the **same parition** only.
 - **Folders** will not be paste(ctrl-H).
 - Hard link files **will be modified everywhere** once modified at one place.
